@@ -9,6 +9,8 @@ Cook is a set of apps for [Cooklang](https://cooklang.org) recipes, the open, pl
 
 **[Cook Cloud](https://cook.md/)** syncs your recipe folder across your phone, desktop and [CookCLI](https://cooklang.org/cli/). Paid plans fund the open-source Cooklang project.
 
+**[What's new](https://github.com/cook-md/.github/blob/main/CHANGELOG.md)**: what changed in every app, month by month.
+
 **Community**
 - [r/cooklang](https://www.reddit.com/r/cooklang/)
 - [Discord](https://discord.gg/fUVVvUzEEK)
