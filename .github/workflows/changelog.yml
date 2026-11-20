@@ -1,0 +1,61 @@
+name: What's new
+
+# Regenerates CHANGELOG.md, the changelog across every Cook app, from each
+# product's own public changelog (see scripts/aggregate.py).
+#
+# Runs once a day, when cook.md's changelog is published here
+# (changelogs/cook-cloud.md), when the script changes, or by hand. On a pull
+# request it only runs the tests and a trial build.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  push:
+    branches: [main]
+    paths:
+      - changelogs/**
+      - scripts/**
+      - .github/workflows/changelog.yml
+  pull_request:
+    paths:
+      - changelogs/**
+      - scripts/**
+      - .github/workflows/changelog.yml
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Test the script
+        run: python3 scripts/test_aggregate.py
+
+      - name: Build CHANGELOG.md
+        run: python3 scripts/aggregate.py
+
+      - name: Commit when it changed
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git add CHANGELOG.md
+          if git diff --cached --quiet; then
+            echo "CHANGELOG.md already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "What's new: $(date -u +%F)"
+          git push
