@@ -87,6 +87,26 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.99 · 2026-11-22
+
+**Fixed**
+
+- The blog was fact-checked, all 20 posts. Posts no longer say recipe
+  imports are part of Cook Pro or that Kickstart gives fifteen recipes,
+  the CookBot post says what it can read in your folder, and the Paprika
+  and meal-kit comparisons use the vendors' current plans and prices.
+- The help pages were checked against the released apps and corrected.
+  The iOS and Android pages and the in-app FAQ describe the apps as they
+  are now: no storage chooser, recipes can be written and edited on the
+  phone, the shopping list syncs, and which imports need a plan.
+- The CookBot help says what CookBot can read (any file in the folder you
+  have open) and that conversations are kept for 90 days. It used to say
+  only shared files were sent and nothing was stored.
+- The Sync Agent, Cook Editor, Cookify, Cook MCP, Nutrition API, plugin
+  and report-template pages no longer give commands, file paths, limits
+  or code samples that do not work. Cook MCP is no longer said to work
+  with ChatGPT.
+
 #### 0.23.93 · 2026-11-20
 
 **Added**
