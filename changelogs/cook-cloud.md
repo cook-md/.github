@@ -5,6 +5,14 @@ sync), newest first. A release with nothing to say to the people who use it is
 left out. Internal engineering notes stay in the private repository; this file
 is generated from it.
 
+## [0.23.100] - 2026-11-23
+
+### Added
+
+- You can give someone a year of Cook Basic or Cook Pro at cook.md/gift. It is
+  one payment that does not renew, sent by email on the day you choose or
+  printed, and redeemed at cook.md/redeem without a card.
+
 ## [0.23.99] - 2026-11-22
 
 ### Fixed
