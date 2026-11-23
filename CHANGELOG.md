@@ -87,6 +87,14 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.100 · 2026-11-23
+
+**Added**
+
+- You can give someone a year of Cook Basic or Cook Pro at cook.md/gift. It is
+  one payment that does not renew, sent by email on the day you choose or
+  printed, and redeemed at cook.md/redeem without a card.
+
 #### 0.23.99 · 2026-11-22
 
 **Fixed**
