@@ -87,6 +87,13 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.101 · 2026-11-23
+
+**Fixed**
+
+- The gift page's "Continue to payment" button opens the payment page. In
+  0.23.100 it answered "The payment page could not be opened" for everyone.
+
 #### 0.23.100 · 2026-11-23
 
 **Added**
