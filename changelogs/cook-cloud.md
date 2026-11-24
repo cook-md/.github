@@ -5,6 +5,13 @@ sync), newest first. A release with nothing to say to the people who use it is
 left out. Internal engineering notes stay in the private repository; this file
 is generated from it.
 
+## [0.23.103] - 2026-11-24
+
+### Added
+
+- A gift year now ends with two emails to the recipient: the one a week
+  before, and a second on the last day, with the link to subscribe.
+
 ## [0.23.102] - 2026-11-24
 
 ### Added
