@@ -87,6 +87,13 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.103 · 2026-11-24
+
+**Added**
+
+- A gift year now ends with two emails to the recipient: the one a week
+  before, and a second on the last day, with the link to subscribe.
+
 #### 0.23.102 · 2026-11-24
 
 **Added**
