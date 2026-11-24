@@ -5,6 +5,19 @@ sync), newest first. A release with nothing to say to the people who use it is
 left out. Internal engineering notes stay in the private repository; this file
 is generated from it.
 
+## [0.23.102] - 2026-11-24
+
+### Added
+
+- New on the blog: five common meal-planning mistakes, shown on one ordinary
+  week of full days (breakfast, lunch, dinner and snacks) scored with Core
+  Vitals, with the changes that took it from 8 to 13 of 17 targets.
+
+### Fixed
+
+- Redeeming a gift works. In 0.23.100 and 0.23.101 the "Start my year" button
+  answered "The change you wanted was rejected" in every browser.
+
 ## [0.23.101] - 2026-11-23
 
 ### Fixed
