@@ -5,6 +5,20 @@ sync), newest first. A release with nothing to say to the people who use it is
 left out. Internal engineering notes stay in the private repository; this file
 is generated from it.
 
+## [0.23.104] - 2026-11-24
+
+### Fixed
+
+- Kickstart packs keep to the time you gave for each meal more often: a
+  "5–10 minute" breakfast now gets 10-minute recipes instead of 20-minute
+  ones, and a vegan pack with a 30-minute limit no longer fills up with
+  45-minute dishes.
+- A meal you said you have an hour or more for (or batch-cook ahead) is no
+  longer filled with the quickest recipes.
+- Recipes made with dashi, fish sauce or oyster sauce are now treated as
+  containing fish or shellfish, so they stay out of packs for people who
+  avoid them, and out of vegetarian packs.
+
 ## [0.23.103] - 2026-11-24
 
 ### Added
