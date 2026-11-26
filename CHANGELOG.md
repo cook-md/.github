@@ -87,6 +87,13 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.107 · 2026-11-26
+
+**Added**
+
+- A "Give Cook for the holidays" banner above the landing-page nav, linking
+  to the gift page. It comes down by itself after 31 December 2026.
+
 #### 0.23.106 · 2026-11-26
 
 **Changed**
