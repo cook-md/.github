@@ -5,6 +5,17 @@ sync), newest first. A release with nothing to say to the people who use it is
 left out. Internal engineering notes stay in the private repository; this file
 is generated from it.
 
+## [0.23.105] - 2026-11-26
+
+### Fixed
+
+- Signing in to Cook Sync from your computer no longer sometimes drops you
+  on the dashboard instead of the "Sign in to Cook Sync Agent" page, which
+  left the app signed out.
+- Importing a Tandoor export brings over every recipe with its ingredients,
+  steps, tags, times and photo. Before, the full export said "no recipes
+  found", and a single recipe came out empty.
+
 ## [0.23.104] - 2026-11-24
 
 ### Fixed
