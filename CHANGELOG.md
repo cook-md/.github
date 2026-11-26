@@ -87,6 +87,25 @@ hand. Each product's full history is linked from its heading.
 
 ### [cook.md](changelogs/cook-cloud.md)
 
+#### 0.23.106 · 2026-11-26
+
+**Changed**
+
+- Importing from Paprika, Mealie, Crouton, Nextcloud Cookbook, Cookmate,
+  Copy Me That, Recipe Keeper and Plan to Eat brings over more of each
+  recipe: its photo (Plan to Eat only links photos, so they stay behind),
+  description, servings, prep and cook times, and tags or categories, as
+  imports from Mela already did. Servings now come over from Mela and
+  Tandoor too.
+- One recipe your import can't read no longer fails the whole file: it is
+  skipped, and the rest come through.
+
+**Fixed**
+
+- Mealie backups, Cookmate backups and HTML exports, and a zipped Nextcloud
+  Cookbook folder no longer say "no recipes found". A Crouton "Export all" ZIP and a single
+  Paprika recipe file can be uploaded too.
+
 #### 0.23.105 · 2026-11-26
 
 **Fixed**
